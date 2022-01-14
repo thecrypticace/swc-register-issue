@@ -1,0 +1,17 @@
+{
+  "name": "swc-register-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "using-dash-r": "node -r @swc/register src/example.js",
+    "using-swc-node": "swc-node src/example.js",
+    "using-require": "node src/using-require.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swc/core": "^1.2.129",
+    "@swc/register": "0.1.9"
+  }
+}
